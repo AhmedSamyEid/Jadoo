@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-Google-Sans :"Noto Sans", sans-serif;
+  --font-Volkhov: "Volkhov", serif;
+  --font-Poppins: "Poppins", sans-serif;
+  --font-Open-Sans: "Open Sans", sans-serif;
+  --color-Dark: #212832;
+  --color-Terra-Cotta: #DF6951;
+  --color-Blue-Zodiac: #181E4B;
+  --color-Dolphin: #5E6282;
+  --color-Night: #080809;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+label {
+  display: none;
+}
+#check {
+  z-index: 3;
+}
+@media (max-width: 960px) {
+  .container2 {
+    overflow: hidden;
+    
+  }
+  header nav {
+    display: none;
+  }
+  label {
+    width: 100%;
+    margin-top: 35px;
+    text-align: end;
+    justify-content: end;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    transition-property: var(--color-Terra-Cotta);
+  }
+  label .fa-xmark {
+    width: 67%;
+    text-align: end;
+    justify-content: end;
+    font-size: 25px;
+    cursor: pointer;
+    transition-property: var(--color-Terra-Cotta);
+  }
+
+  label:hover {
+    color: var(--color-Dark);
+  }
+  .fa-xmark {
+    display: none;
+  }
+  #check:checked ~ nav .sign-up {
+    display: none;
+  }
+  #check:checked ~ nav .navbar {
+    flex-direction: column;
+    ;
+  }
+  #check:checked ~ nav {
+    z-index: 999;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-Terra-Cotta);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+  }
+  #check:checked ~ nav a {
+    font-size: 20px;
+    margin-left: 15%;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    color:#fff
+  }
+  #check:checked ~  label .fa-bars {
+    display: none;
+  }
+  #check:checked ~  label .fa-xmark {
+    z-index: 999999999999;
+    position: fixed;
+    display: block;
+  }
+  header input {
+    display: none;
+  }
+  .travel-information .enjoy h1 {
+    width: 55%;
+    font-weight: 300;
+    margin-left: -10px;
+    font-size: 30px;
+    line-height: 55px;
+    position: relative;
+    bottom: 80px;
+}
+  .destinations {
+  width: 80%;
+  line-height: 30px;
+  position: relative;
+  bottom: 100px;
+  /* margin-top: -100px; */
+}
+.travel-information .decore img {
+  /* width: 40%;
+  margin-left: -30%;
+  background-color: #080809;
+  margin-bottom: 30px;
+  height: auto; */
+  display: none;
+}
+.travel-information .hero img  {
+  max-width: 70%;
+  height: auto;
+  margin-top: 200px;
+  margin-right: 175px;
+}
+.travel-information .blob img  {
+  display: none;
+}
+.built-wicket p {
+  max-width: 50%;
+  margin-top: -200px;
+}
+.find-out-more {
+  cursor: pointer;
+}
+button.find-out-more  {
+  margin-top: 90px;
+  width: 25%;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+.play-btn img {
+  margin-top: 80px;
+  margin-left: -100px;
+  cursor: pointer;
+}
+header .play-btn h3  {
+  margin-top: 110px;
+  
+}
+
+}
+/* @media (min-width : 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width : 992px) {
+  .container {
+    width: 992px;
+    
+  }
+}
+@media (min-width : 1200px) {
+  .container {
+    width: 1170px;
+  }
+} */
+.container {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  
+}
+.logo {
+  margin: 30px 10px 0 0 ;
+  width: 30%;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+  gap: 70px;
+  margin: 47px 80px 0 0;
+
+}
+nav a {
+  text-decoration: none;
+  color: var(--color-Dark);
+  font-family: var(--font-Google-Sans);
+  font-weight: 500;
+}
+nav li {
+  list-style: none;
+  
+}
+nav  {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: end;
+  z-index: 1;
+}
+.sign-up {
+  margin: 32px 90px 0 0;
+  border: solid 1px black;
+  padding: 14px;
+  width: 11%;
+  background-color: #fff1de;
+  color: var(--color-Dark);
+  font-family: var(--font-Google-Sans);
+  border-radius: 5px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.sign-up:hover {
+  background-color: #EB9887;
+  border: solid 1px #EB9887;
+}
+.front-viewimages  {
+  display: flex;
+  
+
+}
+.blob img {
+  width: 600px;
+  height: 872.58px;
+  
+
+}
+.blob {
+  margin-top: -645px;
+  margin-left: -38.50%;
+
+}
+.hero img {
+  width: 783.87px;
+  height: 764px;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 2.5s ease-in-out, opacity 2.5s ease-in-out;
+}
+.hero {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  margin-left: 35%;
+  margin-top: -470px;
+  z-index: 1;
+}
+.hero img.animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+.travel-information {
+  margin-top: 200px;
+  line-height: 100px;
+}
+.destinations h3{
+  font-family: var(--font-Poppins);
+  color: var(--color-Terra-Cotta);
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 8%;
+}
+.enjoy {
+  width: 570px;
+  height: 267px;
+  margin-left: 8%;
+
+}
+.enjoy h1 {
+  font-family: var(--font-Volkhov);
+  font-weight: 700;
+  font-size: 89px;
+  line-height: 89px;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  color: var(--color-Blue-Zodiac);
+}
+.enjoy h1.animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+.decore  {
+  margin-top: -530px;
+  margin-left: 29%;
+  position: relative;
+}
+.decore img {
+  width: auto;
+  height: auto;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+.decore img.animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+.built-wicket {
+  width: 477px;
+  height: 90px;
+  font-family: var(--font-Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: 8%;
+  margin-top: 250px;
+  color: var(--color-Dark);
+}
+.find-out-more {
+  width: 170px;
+  height: 60px;
+  margin: 50px 0 0 8%;
+  font-size: 18px;
+  font-family: var(--font-Google-Sans);
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #ffff;
+  transition: all 0.4s;
+  border: solid 1px #f1a501;
+  background-color: #f1a501;
+}
+.find-out-more:hover {
+  border: solid 1px #bb8000;
+  background-color:#bb8000 ;
+}
+.play-btn {
+  display: flex;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: -70px;
+  cursor: pointer;
+}
+.play-btn h3 {
+  margin-top: 30px;
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 17px;
+  color: #686d77;
+  
+} 
