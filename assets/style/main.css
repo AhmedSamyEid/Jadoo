@@ -46,7 +46,7 @@ label {
     transition-property: var(--color-Terra-Cotta);
   }
   label .fa-xmark {
-    width: 67%;
+    width: 60%;
     text-align: end;
     justify-content: end;
     font-size: 25px;
@@ -81,7 +81,8 @@ label {
   }
   #check:checked ~ nav a {
     font-size: 20px;
-    margin-left: 15%;
+    margin-left: 20%;
+    justify-content: center;
     text-align: center;
     margin-bottom: 50px;
     letter-spacing: 2px;
@@ -105,50 +106,51 @@ label {
     font-size: 30px;
     line-height: 55px;
     position: relative;
-    bottom: 80px;
+    bottom: 160px;
 }
   .destinations {
-  width: 80%;
+  width: 100%;
   line-height: 30px;
   position: relative;
-  bottom: 100px;
+  bottom: 165px;
   /* margin-top: -100px; */
 }
 .travel-information .decore img {
-  /* width: 40%;
-  margin-left: -30%;
-  background-color: #080809;
-  margin-bottom: 30px;
-  height: auto; */
-  display: none;
+  width: 40%;
+  margin-left: 0;
+  margin-top: 140px;
+  height: auto;
+
 }
 .travel-information .hero img  {
   max-width: 70%;
   height: auto;
-  margin-top: 200px;
-  margin-right: 175px;
+  margin-top: 170px;
+  margin-right: 137px;
 }
 .travel-information .blob img  {
   display: none;
 }
 .built-wicket p {
-  max-width: 50%;
+  max-width: 37%;
   margin-top: -200px;
+  color: var(--color-Dolphin);
 }
 .find-out-more {
   cursor: pointer;
 }
 button.find-out-more  {
-  margin-top: 90px;
-  width: 25%;
+  margin-top: 150px;
+  max-width:  30%;
   padding: 10px;
   font-size: 15px;
   
 }
 .play-btn img {
   margin-top: 80px;
-  margin-left: -100px;
+  margin-right: 0;
   cursor: pointer;
+
 }
 header .play-btn h3  {
   margin-top: 110px;
