@@ -13,6 +13,8 @@
   --color-Blue-Zodiac: #181E4B;
   --color-Dolphin: #5E6282;
   --color-Night: #080809;
+  --color-Haiti:#14183E;
+  --color-white:#ffffff;
 }
 .container {
   padding-left: 15px;
@@ -21,13 +23,16 @@
   margin-right: auto;
 
 }
+#check {
+  display: none;
+}
 label {
   display: none;
 }
 #check {
   z-index: 3;
 }
-@media (max-width: 960px) {
+@media (min-width: 391px) and (max-width: 650px) {
   .container2 {
     overflow: hidden;
     
@@ -112,7 +117,7 @@ label {
   width: 100%;
   line-height: 30px;
   position: relative;
-  bottom: 165px;
+  bottom: 160px;
   /* margin-top: -100px; */
 }
 .travel-information .decore img {
@@ -156,7 +161,38 @@ header .play-btn h3  {
   margin-top: 110px;
   
 }
+.gather-travel-information {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px; 
+}
 
+.calculated-weather {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  justify-content: center; 
+}
+
+.img .rectangle {
+  width: 80px; 
+  height: 80px;
+}
+
+.img img:not(.rectangle) {
+  width: 50px; 
+}
+
+.calculated .weather {
+  font-size: 1em;
+}
+
+.calculated .built-wicket-longer {
+  font-size: 0.8em; 
+}
+.group img {
+  display: none;
+}
 }
 /* @media (min-width : 768px) {
   .container {
@@ -351,3 +387,80 @@ nav  {
   color: #686d77;
   
 } 
+.best-services {
+  text-align: center;
+  
+}
+.best-services h5 {
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 90px;
+  color: var(--color-Dolphin);
+}
+.best-services h2 {
+  font-family: var(--font-Volkhov);
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--color-Haiti);
+}
+.group {
+  text-align: end;
+  margin-right: 5%;
+  margin-top: -100px;
+}
+.group img {
+  width: 153px;
+  height: 166px;
+}
+.gather-travel-information {
+  width: 100%;
+  display: flex;
+  text-align: start;
+  line-height: 65px;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.gather-travel-information .img  {
+  text-align: center;
+  margin-top: 150px;
+}
+.gather-travel-information .img .satellite-dish {
+  width: 66.74px;
+  height: 70px;
+}
+.gather-travel-information .img .rectangle{
+  width: 50px;
+  height: 49px;
+  margin-right: -45%;
+}
+.gather-travel-information .img .satellite-dish {
+  width: 66.74px;
+  height: 70px;
+}
+.gather-travel-information .img .plane {
+  width: 158.04px;
+  height: 69.56px;
+}
+.gather-travel-information .calculated {
+  font-family: var(--font-Open-Sans);
+  font-weight: 600;
+  font-size: 20px
+  
+}
+.weather {
+  color:var(--color-Blue-Zodiac);
+}
+.built-wicket-longer  {
+  width: 181px;
+  height: 78px;
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-Dolphin);
+  line-height: 26px;
+}
+
