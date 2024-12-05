@@ -42,7 +42,7 @@ label {
   }
   label {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 23px;
     text-align: end;
     justify-content: end;
     display: block;
@@ -104,6 +104,7 @@ label {
   header input {
     display: none;
   }
+
   .travel-information .enjoy h1 {
     width: 55%;
     font-weight: 300;
@@ -111,13 +112,13 @@ label {
     font-size: 30px;
     line-height: 55px;
     position: relative;
-    bottom: 160px;
+    bottom: 130px;
 }
   .destinations {
   width: 100%;
   line-height: 30px;
   position: relative;
-  bottom: 160px;
+  bottom: 130px;
   /* margin-top: -100px; */
 }
 .travel-information .decore img {
@@ -174,14 +175,14 @@ header .play-btn h3  {
   justify-content: center; 
 }
 
-.img .rectangle {
+/* .img .rectangle {
   width: 80px; 
   height: 80px;
 }
 
 .img img:not(.rectangle) {
   width: 50px; 
-}
+} */
 
 .calculated .weather {
   font-size: 1em;
@@ -219,6 +220,7 @@ header .play-btn h3  {
 .logo {
   margin: 30px 10px 0 0 ;
   width: 30%;
+
 }
 nav ul {
   display: flex;
@@ -418,12 +420,14 @@ nav  {
   display: flex;
   text-align: start;
   line-height: 65px;
+  text-align: center;
   justify-content: space-around;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 100px;
+  
 }
+
 .gather-travel-information .img  {
   text-align: center;
   margin-top: 150px;
@@ -462,5 +466,9 @@ nav  {
   font-size: 16px;
   color: var(--color-Dolphin);
   line-height: 26px;
+  margin-left: 5%;
+}
+.satellite-dish , .image , .power-supply {
+  margin-left: 10%;
 }
 
