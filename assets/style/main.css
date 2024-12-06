@@ -249,6 +249,7 @@ header .play-btn h3  {
   text-align: center;
   margin-top: -160px;
 }
+
 }
 /* @media (min-width : 768px) {
   .container {
@@ -714,7 +715,7 @@ figure {
   margin-left: 5%;
   
 }
-  .image .windows {
+  .images .windows {
   width: 402px;
   height: 96px;
   font-size: 20px;
@@ -723,7 +724,7 @@ figure {
   color: var(--color-Dolphin);
   line-height: 32px;
 }
-.image {
+.images {
   margin-top:-140px;
   margin-left: 190%;
   background-color: #ffffff;
@@ -731,4 +732,98 @@ figure {
 .axon  {
     display: flex;
   justify-content: space-around;
+}
+.subscribe h3 {
+  width: 859px;
+  height: 108px;
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  display: flex;
+  text-align: center;
+  margin-left: 18%;
+}
+.subscribe input  {
+  width: 20%;
+  padding: 15px;
+  margin-bottom: -270px;
+  margin-left: 40%;
+  display: flex;
+  background-color: #ffffff;
+  border: solid 1px #b2afaf;
+  cursor: pointer;
+}
+
+.submit {
+  width: 180px;
+  height: 68px;
+  border-radius: 10px;
+  color: #ffff;
+  border: solid 1px #DF6951;
+  background-color: var(--color-Terra-Cotta);
+  margin-left: 65%;
+  cursor: pointer;
+  margin-top:210px;
+}
+.Jadoo {
+  margin-left: 10%;
+}
+.Jadoo h2 {
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 66px;
+  color: var(--color-Haiti);
+}
+.Jadoo p {
+  width: 207px;
+  height: 48px;
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.19px;
+  color: var(--color-Dolphin);
+}
+.company {
+  margin-left: 35%;
+  margin-top: -30px;
+}
+.pany {
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 56.15px;
+  color: var(--color-Night);
+}
+.contact {
+  margin-left: 50%;
+  margin-top: -175px;
+}
+.tact {
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 56.15px;
+  color: var(--color-Night);
+}
+.More {
+  margin-left: 65%;
+  margin-top: -175px;
+}
+.ore {
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 56.15px;
+  color: var(--color-Night);
+}
+.icons-facebook {
+  text-align: end;
+  right: 5%;
+  position: relative;
+  bottom: 250px;
+  line-height: 30px;
+  
+  
 }
