@@ -194,6 +194,43 @@ header .play-btn h3  {
 .group img {
   display: none;
 }
+.some-country-information {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+  overflow: hidden;
+  position: relative;
+  right: 15%;
+}
+.some-country-information img {
+  width: 100%;
+}
+.book-your-next-trip .book  {
+  font-size: 20px;
+  width: 50%;
+  line-height: 30px;
+}
+.rectangle {
+  margin-top: 500px;
+  margin-left: 10%;
+  
+}
+.icon {
+  display: none;
+}
+
+.trip-to-greece .rectangle h3 {
+  width: 100%;
+  margin-left: -50%;
+}
+.june {
+  width: 100%;
+  margin-left: 2.4%;
+  
+}
+.joseph {
+  width: 100%;
+  margin-right: 70%;
+}
 }
 /* @media (min-width : 768px) {
   .container {
@@ -471,4 +508,174 @@ nav  {
 .satellite-dish , .image , .power-supply {
   margin-left: 10%;
 }
+.discover-some-of-the-country {
+  text-align: center;
 
+}
+.discover-some-of-the-country h5 {
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  color: var(--color-Dolphin);
+}
+.discover-some-of-the-country h2 {
+  font-family: var(--font-Volkhov);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64.5px;
+  color: var(--color-Haiti);
+}
+
+.some-country-information {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 163px;
+  margin-left: 50px;
+}
+.some-country-information img {
+  width: 414px;
+  height: 457px;
+  margin-top: 70px;
+  cursor: pointer;
+  
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.some-country-information img:hover {
+  transform: scale(1.1); 
+
+}
+.Italty  img {
+  margin-top: 145px;
+}
+.Italty ,h4 , span {
+  
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  color: var(--color-Dolphin);
+  position: relative;
+  bottom: 70px;
+  line-height: 40px;
+}
+.book-your-next-trip  {
+  margin-top: 70px;
+}
+.book-your-next-trip span {
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-Dolphin);
+}
+.Italty span {
+  position: relative;
+  left: 65%;
+  bottom: 150px;
+}
+.book-your-next-trip h2 ,span {
+  margin-left: 70px;
+  margin-top: -50px;
+
+}
+.figure , h3 {
+  margin-left: 5%;
+  margin-bottom: -7px;
+  gap: 40px;
+  font-family: var(--font-Poppins);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-Dolphin);
+}
+.choose {
+  margin-bottom: 1px;
+}
+.dolor {
+  
+  margin-left: 2%;
+}
+.book-your-next-trip  , .ifgcaption {
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-Dolphin);
+  width: 100%;
+}
+figure {
+  margin-left: 70px;
+
+}
+
+.selection  {
+  
+  /* width: 47px;
+  height: 48px; */
+  background-color: #f0bb1f;
+}
+.water  {
+  
+  background-color: #f15a2b;
+}
+.taxi  {
+  background-color: #006380;
+}
+.book-your-next-trip h2 {
+  width: 511px;
+  font-family: var(--font-Volkhov);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64.5px;
+  color: var(--color-Haiti);
+}
+.trip-to-greece {
+  text-align: end;
+  margin-top: -400px;
+  margin-right: 70px;
+  
+}
+.rectangle img {
+  width: 321px;
+  height: 161px;
+}
+.rectangle h3 {
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-Night);
+  margin-right: 15%;
+  margin-top: 30px;
+}
+.trip-to-greece {
+  filter: drop-shadow(20px 20px 20px  rgb(33, 70, 255));
+}
+.trip-to-greece .june {
+  position: relative;
+  top: 10px;  
+  right: 2%;
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-Dolphin);
+}
+.trip-to-greece .joseph {
+  position: relative;
+  top: 10px;  
+  right: 7%;
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-Dolphin);
+}
+.icon {
+  margin-right: 15%;
+  margin-top: 30px;
+  
+}
+.icon img {
+  padding: 10px;
+}
+.people-going {
+  margin-top: 25px;
+  margin-right: 0;
+}
