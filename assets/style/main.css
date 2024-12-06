@@ -231,6 +231,24 @@ header .play-btn h3  {
   width: 100%;
   margin-right: 70%;
 }
+.image {
+  display: none;
+}
+.people-say span {
+  display: none;
+}
+.people-say h6 {
+  display: none;
+  font-size: 25px;
+}
+.axon  {
+  
+  overflow: hidden;
+  margin-top: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: -160px;
+}
 }
 /* @media (min-width : 768px) {
   .container {
@@ -678,4 +696,39 @@ figure {
 .people-going {
   margin-top: 25px;
   margin-right: 0;
+}
+.people-say ,span {
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 130px;
+  
+}
+.people-say ,h6 {
+  width: 409px;
+  font-family: var(--font-Volkhov);
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--color-Haiti);
+  margin-top: -30px;
+  margin-left: 5%;
+  
+}
+  .image .windows {
+  width: 402px;
+  height: 96px;
+  font-size: 20px;
+  font-family: var(--font-Poppins);
+  font-weight: 500;
+  color: var(--color-Dolphin);
+  line-height: 32px;
+}
+.image {
+  margin-top:-140px;
+  margin-left: 190%;
+  background-color: #ffffff;
+}
+.axon  {
+    display: flex;
+  justify-content: space-around;
 }
